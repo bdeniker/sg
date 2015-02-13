@@ -1,0 +1,656 @@
+[
+{
+  "fields": {
+    "name": "Computing"
+  },
+  "model": "cards.skill"
+},
+{
+  "fields": {
+    "name": "Comms"
+  },
+  "model": "cards.skill"
+},
+{
+  "fields": {
+    "name": "MechEng"
+  },
+  "model": "cards.skill"
+},
+{
+  "fields": {
+    "name": "ElecEng"
+  },
+  "model": "cards.skill"
+},
+{
+  "fields": {
+    "name": "Disposals"
+  },
+  "model": "cards.skill"
+},
+{
+  "fields": {
+    "name": "Larceny"
+  },
+  "model": "cards.skill"
+},
+{
+  "fields": {
+    "name": "Quantum Computing"
+  },
+  "model": "cards.skill"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "White Ice"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Cutting Edge System"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Standard Encryption"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Quantum Encryption"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Low Security"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Legacy System"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Black Ice"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "High Security"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Nano Security"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Enemy AI"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Intelligent AI"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Password Protected"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Grey Ice"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Prismatic Ice"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Intruder Detection"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Isolated"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Wireless"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Firewall"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Anti Virus"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "skill": [
+      "Computing"
+    ],
+    "name": "Plasma-wall"
+  },
+  "model": "cards.problem"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "White Ice",
+        "Computing"
+      ],
+      [
+        "Cutting Edge System",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 60,
+    "name": "Lucky Break"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Standard Encryption",
+        "Computing"
+      ],
+      [
+        "Quantum Encryption",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 180,
+    "name": "Cryptography"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Standard Encryption",
+        "Computing"
+      ],
+      [
+        "Low Security",
+        "Computing"
+      ],
+      [
+        "Legacy System",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 180,
+    "name": "Program - Packet Sniffer"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Black Ice",
+        "Computing"
+      ],
+      [
+        "High Security",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 15,
+    "name": "Fast Typist"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Nano Security",
+        "Computing"
+      ],
+      [
+        "Enemy AI",
+        "Computing"
+      ],
+      [
+        "Intelligent AI",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 120,
+    "name": "Logical Thinking"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Legacy System",
+        "Computing"
+      ],
+      [
+        "Password Protected",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 240,
+    "name": "Brute Force"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "White Ice",
+        "Computing"
+      ],
+      [
+        "Legacy System",
+        "Computing"
+      ],
+      [
+        "Black Ice",
+        "Computing"
+      ],
+      [
+        "Grey Ice",
+        "Computing"
+      ],
+      [
+        "Prismatic Ice",
+        "Computing"
+      ],
+      [
+        "Intruder Detection",
+        "Computing"
+      ],
+      [
+        "Isolated",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 360,
+    "name": "Connection - Direct"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Nano Security",
+        "Computing"
+      ],
+      [
+        "Intelligent AI",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 60,
+    "name": "Program - Logical Loop"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "White Ice",
+        "Computing"
+      ],
+      [
+        "Cutting Edge System",
+        "Computing"
+      ],
+      [
+        "Black Ice",
+        "Computing"
+      ],
+      [
+        "Grey Ice",
+        "Computing"
+      ],
+      [
+        "Prismatic Ice",
+        "Computing"
+      ],
+      [
+        "Intruder Detection",
+        "Computing"
+      ],
+      [
+        "Wireless",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 360,
+    "name": "Connection - Remote"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "White Ice",
+        "Computing"
+      ],
+      [
+        "Grey Ice",
+        "Computing"
+      ],
+      [
+        "Prismatic Ice",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 60,
+    "name": "Program - Ice Breaker"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Standard Encryption",
+        "Computing"
+      ],
+      [
+        "Low Security",
+        "Computing"
+      ],
+      [
+        "Password Protected",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 120,
+    "name": "Social Engineering"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Firewall",
+        "Computing"
+      ],
+      [
+        "Anti Virus",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 120,
+    "name": "Program - Tunnel"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Cutting Edge System",
+        "Computing"
+      ],
+      [
+        "Legacy System",
+        "Computing"
+      ],
+      [
+        "Anti Virus",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 60,
+    "name": "Real World Experience"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Firewall",
+        "Computing"
+      ],
+      [
+        "Plasma-wall",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 180,
+    "name": "Program - Fire Hydrant"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "High Security",
+        "Computing"
+      ],
+      [
+        "Enemy AI",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 60,
+    "name": "Shall we play a game?"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Quantum Encryption",
+        "Computing"
+      ],
+      [
+        "Black Ice",
+        "Computing"
+      ],
+      [
+        "Enemy AI",
+        "Computing"
+      ],
+      [
+        "Grey Ice",
+        "Computing"
+      ],
+      [
+        "Prismatic Ice",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 180,
+    "name": "Program - Friendly AI"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "Anti Virus",
+        "Computing"
+      ],
+      [
+        "Plasma-wall",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 120,
+    "name": "Program - Worm Virus"
+  },
+  "model": "cards.card"
+},
+{
+  "fields": {
+    "problems": [
+      [
+        "High Security",
+        "Computing"
+      ],
+      [
+        "Intruder Detection",
+        "Computing"
+      ]
+    ],
+    "skill": [
+      "Computing"
+    ],
+    "duration": 240,
+    "name": "Softly Softly"
+  },
+  "model": "cards.card"
+}
+]
