@@ -14,7 +14,7 @@ class ProblemCardManager(models.Manager):
 class Skill(models.Model):
     objects = SkillManager()
 
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=200, unique=True)
 
     def __str__(self):
         return self.name
@@ -34,6 +34,9 @@ class Problem(models.Model):
     def natural_key(self):
         return (self.name,) + self.skill.natural_key()
     natural_key.dependencies = ['cards.skill']
+
+    def solved_by_count(self):
+        return self.card_set.all().count()
 
 class Card(models.Model):
     objects = ProblemCardManager()

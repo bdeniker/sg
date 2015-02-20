@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Skill: {{ skill.name }}{% endblock %}
+
+{% block breadcrumbs %}
+    <ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    <li><a href="{% url 'skill-index' %}">Skills</a></li>
+    <li class="active">{{ skill.name }}</li>
+    </ol>
+{% endblock %}
+
+{% block content %}
+    <div class="page-header">
+        <h1>{{ skill.name }}</h1>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Problems</h3>
+            </div>
+            <ul class="list-group">
+            {% for problem in problems %}
+                {% with cards=problem.card_set.count %}
+                    <li class="list-group-item">{{ problem.name }} <span class="badge">{{ cards }} card{{ cards|pluralize }}</span></li>
+                {% endwith %}
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Cards</h3>
+            </div>
+            <ul class="list-group">
+            {% for card in cards %}
+                <li class="list-group-item">{{ card.name }} <span class="badge">{{ card.duration }}s</span></li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endblock %}
