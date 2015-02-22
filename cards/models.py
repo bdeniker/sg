@@ -8,7 +8,8 @@ class SkillManager(models.Manager):
 
 class ProblemCardManager(models.Manager):
     def get_by_natural_key(self, name, skill):
-        return self.get(name=name, skill=skill)
+        return self.get(name=name,
+                        skill=Skill.objects.get_by_natural_key(skill))
 
 # Models
 class Skill(models.Model):
