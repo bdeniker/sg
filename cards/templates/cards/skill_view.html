@@ -33,11 +33,29 @@
             <div class="panel-heading">
                 <h3 class="panel-title">Cards</h3>
             </div>
-            <ul class="list-group">
+            <div class="panel-body">
+                <form class="input-group" action="{% url 'card-hands' skill_name=skill.name %}" method="get" id="card-hand-form">
+                    <input type="number" class="form-control" placeholder="Hand size" aria-describedby="card-handsize" name="cards">
+                    <span class="input-group-addon" id="card-handsize"> cards</span>
+                    <input type="number" class="form-control" placeholder="Number of hands" aria-describedby="card-hands" name="hands">
+                    <span class="input-group-addon" id="card-hands"> hands</span>
+                </form>
+                <button type="submit" form="card-hand-form" class="btn btn-primary btn-block">Generate hands with the best coverage</button>
+            </div>
+            <div class="list-group">
             {% for card in cards %}
-                <li class="list-group-item">{{ card.name }} <span class="badge">{{ card.duration }}s</span></li>
+                <a tabindex="0" class="list-group-item" data-toggle="popover" data-placement="bottom" role="button" data-trigger="focus" title="{{ card.name }}" data-content="{% for problem in card.problems.all %} {{ problem.name }} <br/> {% endfor %}" data-html=true>{{ card.name }} <span class="badge">{{ card.duration }}s</span></a>
             {% endfor %}
-            </ul>
+            </div>
         </div>
     </div>
+{% endblock %}
+
+
+{% block js %}
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
 {% endblock %}
